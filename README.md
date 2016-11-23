@@ -19,7 +19,7 @@
    //  实际调用如下：
    
      - (void)showPopMenu{
-      //设置弹出视图的坐标，宽高
+       //设置弹出视图的坐标，宽高
         CGFloat itemH = 50;//每个item的高度
         CGFloat w = 150;
         CGFloat h = 6*itemH;
