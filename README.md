@@ -18,7 +18,7 @@
 
    //  实际调用如下：
    
-         - (void)showPopMenu{
+    - (void)showPopMenu{
           //设置弹出视图的坐标，宽高
           CGFloat itemH = 50;//每个item的高度
           CGFloat w = 150;
@@ -36,14 +36,13 @@
           popView.fontColor = [UIColor whiteColor];
           popView.canTouchTabbar = YES;
           [popView show];
-          ...
- 
-          }
+ }
   
   
-        - (void)hidePopMenuWithAnimation:(BOOL)animate{
+ - (void)hidePopMenuWithAnimation:(BOOL)animate{
           [_popView hideWithAnimation:animate];
-        }
+}
+       
 
 
   
