@@ -1,7 +1,8 @@
 # YHPopMenu
 </br>
 仿微信“+”弹出菜单。
-###修改图标和文字参数配置属性
+###修改图标和文字参数配置属性</br>
+
 ```
 @property (nonatomic,assign) CGFloat iconW;             //图标宽(默认宽高相等)
 @property (nonatomic,assign) CGFloat fontSize;          //字体大小
@@ -15,7 +16,7 @@
 @property (nonatomic,assign) BOOL canTouchTabbar;       //可以点击Tabbar;(默认是遮挡Tabbar)
 ```
 
-###调用例子
+###弹出菜单
 ```
 - (void)showPopMenu{
   //设置弹出视图的坐标，宽高
